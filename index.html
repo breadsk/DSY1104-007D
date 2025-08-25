@@ -9,15 +9,46 @@
 <body>
 
     <div class="container">
+        <div class="row mt-1">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown link
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav><!--Fin nav-->
+        </div><!--fin row-->
         <div class="row mx-auto mt-2">
             <div class="col-xl-3 col-md-3 col-sm-12 col-xs-12 text-center">
-                <button class="btn btn-primary mt-2">
+                <button id="btnGuardar" class="btn btn-primary mt-2">
                     <i class="fa-solid fa-truck"></i>
                     btn-primary
                 </button>
             </div><!--Fin div-col-->
             <div class="col-xl-3 col-md-3 col-sm-12 col-xs-12 text-center">
-                <button class="btn btn-success mt-2"><i class="fa-regular fa-camera"></i>btn-success</button>
+                <button class="btn btn-success mt-2"><i class="fa-regular fa-camera"></i>&nbsp;&nbsp;btn-success</button>
             </div><!--Fin div-col-->
             <div class="col-xl-3 col-md-3 col-sm-12 col-xs-12 text-center">
                 <button class="btn btn-warning mt-2">btn-warning</button>
@@ -45,11 +76,54 @@
             <div class="col-xl-2 col-md-2 col-sm-12 col-xs-12 text-center mt-1 mb-1">
                 <button type="button" class="btn btn-outline-dark">Dark</button>
             </div>
-        </div>
+        </div><!--Fin row-->
+        <div class="row mx-auto mt-2">
+            <div class="col-xl-3 col-md-3 col-sm-12 col-xs-12 mt-2 mb-2">
+                <div class="card">
+                    <img src="./assets/img/elecman.jpg" class="card-img-top" alt="Imagen de elecman">
+                    <div class="card-body">
+                        <h5 class="card-title">Elecman</h5>
+                        <p class="card-text">Jefe de megaman 1 , con su base en la planta de electricidad.</p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div><!--fin card-->
+            </div><!--fin-col-->
+            <div class="col-xl-3 col-md-3 col-sm-12 col-xs-12 mt-2 mb-2">
+                <div class="card">
+                    <img src="https://static.wikia.nocookie.net/esmegaman/images/9/9c/Cutman-1.png/revision/latest/scale-to-width/360?cb=20241030045401" class="card-img-top" alt="Imagen de elecman">
+                    <div class="card-body">
+                        <h5 class="card-title">Cutman</h5>
+                        <p class="card-text">Jefe de megaman 1 , con su base en la planta de herramientas industriales.</p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div><!--fin card-->
+            </div><!--fin-col-->
+            <div class="col-xl-3 col-md-3 col-sm-12 col-xs-12 mt-2 mb-2">
+                <div class="card">
+                    <img src="./assets/img/airman.jpg" class="card-img-top" alt="Imagen de elecman">
+                    <div class="card-body">
+                        <h5 class="card-title">Airman</h5>
+                        <p class="card-text">Jefe de megaman 2 , con su base en la planta de aire.</p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div><!--fin card-->
+            </div><!--fin-col-->
+            <div class="col-xl-3 col-md-3 col-sm-12 col-xs-12 mt-2 mb-2">
+                <div class="card">
+                    <img src="./assets/img/elecman.jpg" class="card-img-top" alt="Imagen de elecman">
+                    <div class="card-body">
+                        <h5 class="card-title">Elecman</h5>
+                        <p class="card-text">Jefe de megaman 1 , con su base en la planta de electricidad.</p>
+                        <a href="#" class="btn btn-primary">Ver más</a>
+                    </div>
+                </div><!--fin card-->
+            </div><!--fin-col-->
+        </div><!--Fin row-->
     </div><!--fin container-->
 
     
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/bf539c3725.js" crossorigin="anonymous"></script>
+<script src="./assets/js/main.js"></script>
 </body>
 </html>
